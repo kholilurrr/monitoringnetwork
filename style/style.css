@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Quicksand:wght@500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-image: url(/assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+  flex-direction: row;
+}
+main .card-1 {
+  width: 400px;
+  height: 450px;
+  color: white;
+  display: flex;
+  background-color: rgb(21, 114, 255);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+main .card-1 h2 {
+  font-weight: bold;
+}
+
+main .card {
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  justify-content: center;
+  /* border-radius: 30px; */
+  border-top-left-radius: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .title h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(21, 114, 255);
+}
+
+.card .user {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 500px;
+}
+
+.card .user input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+}
+
+.card .pass input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.card .pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .btn-loggin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card .btn-loggin button :hover {
+  color: aqua;
+}
+
+.card .btn-loggin input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(21, 114, 255);
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
